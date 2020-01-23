@@ -6,6 +6,9 @@ Now that you have been assigned a team you must do the following:
 - Decide on a method of communication during the semester. For example [slack](https://slack.com/), old school email, [IRC](https://en.wikipedia.org/wiki/Internet_Relay_Chat), etc.
 - Dedicate 1 member of your team to be in charge of communicating with your sponsor. 
 
+- Slack for team mate communication. Email with sponsor.
+- Randy will be in charge of communicating with the sponsor.
+
 ## Team members
 
 - John Doe johndoe@u.boisestate.edu
