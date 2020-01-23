@@ -12,6 +12,7 @@ Now that you have been assigned a team you must do the following:
 - Jane Doe janedoe@u.boisestate.edu (Sponsor liaison)
 
 - Randy Camacho randycamacho@u.boisestate.edu
+- Scott Aiton scottaiton@u.boisestate.edu
 
 ## Method of communication
 
