@@ -11,17 +11,14 @@ Now that you have been assigned a team you must do the following:
 
 ## Team members
 
-- John Doe johndoe@u.boisestate.edu
-- Jane Doe janedoe@u.boisestate.edu (Sponsor liaison)
-
 - Nealon Hager nealonhager@u.boisestate.edu
-- Randy Camacho randycamacho@u.boisestate.edu
+- Randy Camacho randycamacho@u.boisestate.edu (Sponsor Liason)
 - Nick Kelly nickkelly955@u.boisestate.edu
 - Scott Aiton scottaiton@u.boisestate.edu
 
 ## Method of communication
 
-Join our slack channel @ [example](http://example.com), email, smoke signals etc.
+Join our slack channel @ https://app.slack.com/client/TT1N09GJ1/CSNTYP0SE
 
 ## Submission
 
