@@ -13,6 +13,7 @@ Now that you have been assigned a team you must do the following:
 
 - Nealon Hager nealonhager@u.boisestate.edu
 - Randy Camacho randycamacho@u.boisestate.edu
+- Nick Kelly nickkelly955@u.boisestate.edu
 
 ## Method of communication
 
