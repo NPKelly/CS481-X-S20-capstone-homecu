@@ -1,0 +1,35 @@
+Project Summary - HomeCU
+_________________________________________________________________________________________________
+
+1/28/2020
+Questions for Sponsor	
+	0. Question
+		- Clarifying bullet points
+	1. Preferred method of communication
+		- Phone (Call/Text)
+		- Email
+		- Slack
+	2. Requirements before we start working on the project?
+		- NDA?
+		- Conventions?
+	2. How often do you want to get updated on the progess of the project?
+		- Weekly?
+		- @ Milestones?
+	3. Is there existing work/code for the project?
+		- Mentioned an antiquated application that already exists.
+			- Monitor utility
+		- Sample Data
+	4. Do you have preferences for the technologies that we use?
+		- Python backend with RESTful interface.
+		- Vue.js for front-end
+		- Docker
+		- Model View Controller architecture
+	5. What is the purpose of the login?
+		- Will users be able to edit information?
+		- Will users have different access levels
+	6. What information should be visible when selecting the Credit Union in the list?
+	7. What menu options should be available when the user clicks on the Credit Union in the list?
+	8. Are there design characteristics that the web application should have?
+		- Colors
+		- Designs
+		- Animations	
