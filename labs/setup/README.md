@@ -11,9 +11,6 @@ Now that you have been assigned a team you must do the following:
 
 ## Team members
 
-- John Doe johndoe@u.boisestate.edu
-- Jane Doe janedoe@u.boisestate.edu (Sponsor liaison)
-
 - Nealon Hager nealonhager@u.boisestate.edu
 - Randy Camacho randycamacho@u.boisestate.edu
 - Nick Kelly nickkelly955@u.boisestate.edu
