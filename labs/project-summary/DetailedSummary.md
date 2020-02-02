@@ -10,11 +10,17 @@ The utility will be a web service with Python (Django) as the server-side langua
 ##### Data Provided
 
 The sponsor will provide sample data in the form of CSV files. The description of each data set is as follows:
+
 	1. cuinfo - Information about the credit unions in the list
+	
 	2. montiorusers - Information about the users of the utility
+	
 	3. Inappschemamaster - Information about the loan and stylesheets
+	
 	4. Inappschemadetail - Information about the fields in a loan
+	
 	5. Inappanslookuphdr - List of answers particular to a loan app (used for the loan app editor)
+	
 
 ##### Secure Login
 
