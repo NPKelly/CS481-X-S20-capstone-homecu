@@ -28,11 +28,11 @@ Data Provided
 		-Information about the credit unions in the list
 	-montiorusers
 		-Information about the users of the utility
-	-Inappschemamaster
+	-Lnappschemamaster
 		-Information about the loan and stylesheets
-	-Inappschemadetail
+	-Lnappschemadetail
 		-Information about the fields in a loan
-	-Inappanslookuphdr
+	-Lnappanslookuphdr
 		-List of answers particular to a loan app (used for the loan app editor)
 		
 Technology to be used
