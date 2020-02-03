@@ -3,4 +3,4 @@ Met with group and discussed what questions we wanted to ask our sponsor. Meetin
 
 ## 1/30/20
 Meeting with Sponsor, went over project and what they have as an old version. Discussed different implementations
-they would like and what the workflow might look like. Began looking into vue, Django, and Docker.
+they would like and what the workflow might look like. Decided to have weekly meetings every Thursdat at 1:30. Began looking into vue, Django, and Docker.
