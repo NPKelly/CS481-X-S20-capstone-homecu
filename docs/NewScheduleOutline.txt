@@ -1,0 +1,55 @@
+New Lab Schedule for HomeCU
+__________________________________________________________________________________________________________________
+
+Week 4
+	Docker
+		-Gain a better understanding for the different technologies in our development environment.
+	
+Week 5
+	Testing
+		-Set up a testing framework
+		
+Week 6
+	Planning - 1
+		-Create mock-ups for the different features that are to be implemented
+		-Create user stories for the features that are requested
+		-Make tasks for each person for the weeks
+	
+Week 7 - 9
+	Work on the development for tasks described in the planning session
+		Secure Login Functionality
+			-Using the 'monitorusers' table
+			-Make sure the login feature is fully developed and ready for deployment
+			
+		Adding Create User Functionality
+			-Using the 'monitorusers' table
+			-Ability to edit the table through the web application
+				-Admins and basic users
+				
+		Credit Union List
+			-Using the 'cuinfo' table
+			-Create the list showing the credit unions w/ the ability to display basic information for the credit union
+	
+Week 10
+	Pamphlet
+		-As described in the lab README
+		
+Week 12
+	Demo
+		-As described in the lab README
+		
+Week 13
+	Planning - 2
+		-Layout what additonal features need to be implemented
+			-Future features
+			-Refactoring past features
+
+Week 14 - 15
+	Work on the tasks described in the planning session
+		-Loan App Editor
+			-Using the 'Inappschemamaster', 'Inappschemadetail', and 'Inappanslookuphdr' tables
+			-Fully tested and read for deployment
+
+Week 16
+	Senior Design and Handoff
+		-As described in the lab README
