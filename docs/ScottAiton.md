@@ -24,7 +24,11 @@ Some notes from the meeting:
 
 ## Week 3
 
-TODO
+### Tuesday 2/4
+Met with Shane, have to update schedule.
+
+Talked with team to update schedule.
+We are going to add milestones for Login Page, cuinfo, and loan App editor.
 
 ## Week 4
 
