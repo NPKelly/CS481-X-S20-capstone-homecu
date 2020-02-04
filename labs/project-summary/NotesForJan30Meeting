@@ -1,0 +1,44 @@
+Notes for January 30 Meeting
+________________________________________________________________________________
+
+Login
+	-Simple username/password
+	-No need for signup
+	
+List of Credit Unions
+	-Information will be supplied by sponsor
+	-When a credit union is clicked
+		-Don't go to a new page
+		-Display basic information
+	-Ability to edit the information of the credit unions
+		-Only a subset of the information can be editable for the proof of concept
+		
+Loan App Editor
+	-Allow for the user to change fields 
+		-The fields relate to records on a loan application form
+	-Have a side-by-side display
+		-Left side displays the Group
+		-Right side displays the displays the attributes that can be editted in the group
+	-Have predefined groups that can be dragged and dropped for ease of user
+	-Hover of an attributes displays a tooltip explaining the attribute
+	-Automatically update the information in the attribute
+	
+Data Provided
+	-cuinfo
+		-Information about the credit unions in the list
+	-montiorusers
+		-Information about the users of the utility
+	-Lnappschemamaster
+		-Information about the loan and stylesheets
+	-Lnappschemadetail
+		-Information about the fields in a loan
+	-Lnappanslookuphdr
+		-List of answers particular to a loan app (used for the loan app editor)
+		
+Technology to be used
+	-Django
+	-Vue.js
+	-A Docker containter will be provided by the sponsor
+	
+Future meetings will take place on Thursdays @ 1:30 PM
+	-CCP room 345 is reserved throughout the semester at this timeframe
