@@ -15,3 +15,9 @@ Sat in on a meeting with the sponsor of the project to discuss an overview of th
 ### February 1, 2020
 
 Wrote short descriptions on the features that are to be implemented throughout the course of the project. 
+
+## Week 3
+
+### February 4, 2020
+
+Met with the team to get a better understanding schedule for the rest of the semester. Wrote an outline for the team-created schedule for the semester. Will need to meet with the team/instructor/sponsor to make sure the schedule is not missing anything.
