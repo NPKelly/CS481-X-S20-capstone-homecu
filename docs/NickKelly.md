@@ -21,3 +21,12 @@ Wrote short descriptions on the features that are to be implemented throughout t
 ### February 4, 2020
 
 Met with the team to get a better understanding schedule for the rest of the semester. Wrote an outline for the team-created schedule for the semester. Will need to meet with the team/instructor/sponsor to make sure the schedule is not missing anything.
+
+### February 6, 2020
+
+Met with the sponsor to discuss the docker environment and the schedule going forward.
+
+### February 7, 2020
+
+Applied the github patch that the sponsor provided to the repository.
+
