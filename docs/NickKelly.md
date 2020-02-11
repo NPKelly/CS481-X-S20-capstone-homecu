@@ -30,3 +30,9 @@ Met with the sponsor to discuss the docker environment and the schedule going fo
 
 Applied the github patch that the sponsor provided to the repository.
 
+## Week 4
+
+### February 10, 2020
+
+I spent time installing docker and understanding the environment. I ran into a lot of issue when installing docker but was able to overcome most of them. The main issue that I faced was that my computer does not support Hyper-V. This feature is only in Windows 10 Pro and Enterprise editions. I had to use Docker Toolbox instead of the main docker program. From what I can see Docker Toolbox works fine with the provide docker container. I will discuss with the other team members about how their docker setup went tomorrow.
+
