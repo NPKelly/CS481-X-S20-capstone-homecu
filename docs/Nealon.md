@@ -1,5 +1,8 @@
 # Nealon's Worklog
 
+## 2/6/2020
+Team meeting with Mike and Mark from HomeCU. Talked about the schedule which they thought looked good. Got some clarification on how loan app editor should work. Requested screenshots of old system for referencing. Researched how to get docker working on windows.
+
 ## 2/4/20
 Had meeting with Shane about the state of the project and what's next. Spent time with the group updating the schedule to meet our needs.
 
