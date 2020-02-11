@@ -1,5 +1,8 @@
 # Nealon's Worklog
 
+## 2/11/2020
+Spent 2 hours trying to get docker to work on my windows laptop.
+
 ## 2/6/2020
 Team meeting with Mike and Mark from HomeCU. Talked about the schedule which they thought looked good. Got some clarification on how loan app editor should work. Requested screenshots of old system for referencing. Researched how to get docker working on windows.
 
