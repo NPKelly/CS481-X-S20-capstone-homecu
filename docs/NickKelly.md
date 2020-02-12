@@ -39,3 +39,7 @@ I spent time installing docker and understanding the environment. I ran into a l
 ### February 11, 2020
 
 Turns out the previous attempts at getting docker to work on my machine were not successful, but I was able to get it working. Instead of using Docker Toolbox on my Windows 10 environment I used a VM running Ubuntu. This worked flawlessly. I used a guide by Nick Janetakis to [set up the VM](https://nickjanetakis.com/blog/create-an-awesome-linux-development-environment-in-windows-with-vmware) and to [get docker setup](https://nickjanetakis.com/blog/docker-tip-73-connecting-to-a-remote-docker-daemon).
+
+### February 12, 2020
+
+Updated the main README.md of the repository to match our schedule and added directories to /labs to match the updated schedule.
