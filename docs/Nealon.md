@@ -1,5 +1,8 @@
 # Nealon's Worklog
 
+## 2/12/2020
+Spent 3 hours getting a VM setup because docker wouldn't run on my computer
+
 ## 2/11/2020
 Spent 2 hours trying to get docker to work on my windows laptop.
 
