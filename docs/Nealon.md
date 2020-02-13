@@ -1,5 +1,8 @@
 # Nealon's Worklog
 
+## 2/13/2020
+Around 1am I got the VM and docker to work!
+
 ## 2/12/2020
 Spent 3 hours getting a VM setup because docker wouldn't run on my computer
 
