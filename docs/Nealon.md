@@ -2,6 +2,8 @@
 
 ## 2/13/2020
 Around 1am I got the VM and docker to work!
+From 1:30-2:30 got VM and computer to share a folder so I didn't have to develop on the VM.
+Had team meeting to discuss getting sample SQL tables and structure of the team.
 
 ## 2/12/2020
 Spent 3 hours getting a VM setup because docker wouldn't run on my computer
