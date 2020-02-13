@@ -36,3 +36,10 @@ Applied the github patch that the sponsor provided to the repository.
 
 I spent time installing docker and understanding the environment. I ran into a lot of issue when installing docker but was able to overcome most of them. The main issue that I faced was that my computer does not support Hyper-V. This feature is only in Windows 10 Pro and Enterprise editions. I had to use Docker Toolbox instead of the main docker program. From what I can see Docker Toolbox works fine with the provide docker container. I will discuss with the other team members about how their docker setup went tomorrow.
 
+### February 11, 2020
+
+Turns out the previous attempts at getting docker to work on my machine were not successful, but I was able to get it working. Instead of using Docker Toolbox on my Windows 10 environment I used a VM running Ubuntu. This worked flawlessly. I used a guide by Nick Janetakis to [set up the VM](https://nickjanetakis.com/blog/create-an-awesome-linux-development-environment-in-windows-with-vmware) and to [get docker setup](https://nickjanetakis.com/blog/docker-tip-73-connecting-to-a-remote-docker-daemon).
+
+### February 12, 2020
+
+Updated the main README.md of the repository to match our schedule and added directories to /labs to match the updated schedule.
