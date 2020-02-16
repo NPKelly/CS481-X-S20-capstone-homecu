@@ -5,6 +5,18 @@
 ### Introduction
 To gain a better understanding of Django - the server side framework we will be using - I followed a [tutorial](https://docs.djangoproject.com/en/3.0/intro/tutorial01/) on how to create a simple web application which used data from a database. I do have experience with web development but this is my first time using python/django in a project. 
 
+### Running the application
+Required:
+* Python 3.X.X
+* Django 3.0.3
+
+In the [testApp](./testApp/) directory run the following command:
+```
+$ python manage.py runserver
+```
+
+This will create a local development server which can be accessed, by default, at http://127.0.0.1:8000/. To access the test application go to the address http://127.0.0.1:8000/polls/.
+
 ### What I learned
 
 ##### Models
