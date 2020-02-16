@@ -43,3 +43,11 @@ Turns out the previous attempts at getting docker to work on my machine were not
 ### February 12, 2020
 
 Updated the main README.md of the repository to match our schedule and added directories to /labs to match the updated schedule.
+
+### February 15, 2020
+
+I worked through a tutorial to get a better understanding of the django framework. The code for the app can be found [here](../labs/docker/testDjango/) and a write up of what I learned can be found [here](../labs/docker/testDjango/README.md).
+
+## Week 5
+
+
