@@ -48,6 +48,10 @@ Updated the main README.md of the repository to match our schedule and added dir
 
 I worked through a tutorial to get a better understanding of the django framework. The code for the app can be found [here](../labs/docker/testDjango/) and a write up of what I learned can be found [here](../labs/docker/testDjango/README.md).
 
+### February 16, 2020
+
+I worked through a guide on testing django applications. I learned that all testing of the django side of our application will take place in a file called tests.py. This file will contains subclasses of the django.test.TestCase for each of the models/views/etc. that we will test. This file may get crowded with classes and function so it will be important to keep a consistent naming scheme and documentation.
+
 ## Week 5
 
 
