@@ -12,4 +12,10 @@ Developed a game plan for the rest of the semester. Thursday meeting with our sp
 Had a meeting with sponsor and went over our planned schedule for the project. Discussed the environment for the project and got data from them.
 
 ## 2/9/20
-Did some additional research into the teschnologies that we are going to use. Docker and Vue.
+Did some additional research into the technologies that we are going to use. Docker and Vue.
+
+## 2/11/20
+Got Docker setup and began to familiarize myself with the environment. Reviewed team schedule and discussed how we wanted the directories of the project to set up. Where we were going to put our test and where we wanted the main code to go. Meeting on 2/13/20 with sponsor to discuss directory layout.
+
+## 2/13/20
+Meeting with sponsor. Got the data we needed for the app. Began looking more into Django and Vue. Decided as a team that we will all work both front end and back end on the project so we have experience doing both.
