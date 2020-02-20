@@ -1,7 +1,7 @@
 # Nealon's Worklog
 
 ## 2/20/2020
-Worked on mockups
+Worked on mockups from 1-3
 
 ## 2/18/2020
 Worked on mockups
