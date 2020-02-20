@@ -1,5 +1,11 @@
 # Nealon's Worklog
 
+## 2/20/2020
+Worked on mockups
+
+## 2/18/2020
+Worked on mockups
+
 ## 2/13/2020
 Around 1am I got the VM and docker to work!
 From 1:30-2:30 got VM and computer to share a folder so I didn't have to develop on the VM.
