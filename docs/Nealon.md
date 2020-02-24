@@ -1,5 +1,11 @@
 # Nealon's Worklog
 
+## 2/23/2020
+Added more mockups
+
+## 2/21/2020
+Virtual machine failed and I can't get a local server for this project running on my machine. Debugging with sponsor.
+
 ## 2/20/2020
 Worked on mockups from 1-3
 
