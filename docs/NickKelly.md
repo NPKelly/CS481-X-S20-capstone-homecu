@@ -54,4 +54,13 @@ I worked through a guide on testing django applications. I learned that all test
 
 ## Week 5
 
+### February 18, 2020
+
+This week I am going to create flow diagrams that show the general user interaction with the web site. These will include basic information about the features the user will interact with and the purpose that the features have. There will be small descriptions about the required inputs the user needs to make and the functions that the server side application will need to implement to handle the requests. Today I completed the flow diagram for the login feature.
+
+### February 23, 2020
+
+I worked more on the flow diagrams completing the flow diagrams for the list of credit union feature and the manage users feature. I also updated the login feature flow diagram with the mockups made by Nealon Hager.
+
+
 
