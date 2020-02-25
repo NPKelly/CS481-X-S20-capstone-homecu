@@ -19,3 +19,12 @@ Got Docker setup and began to familiarize myself with the environment. Reviewed 
 
 ## 2/13/20
 Meeting with sponsor. Got the data we needed for the app. Began looking more into Django and Vue. Decided as a team that we will all work both front end and back end on the project so we have experience doing both.
+
+## 2/18/20
+Group Meeting. Discussed what was coming up with the first sprint. Discussed using zenhub the tool we used in 471 senior design to keep track of our sprint.
+
+## 2/20/20
+Began working on zenhub creating a few stories in preparation of the first sprint. Also started looking into how the data that was provided to us would be imported. Either mySQl or postgreSQL.
+
+## 2/23/20 
+Installed mysql workbench and began messing around with it. Still need to discuss with team on either mySql or postgreSQL.
