@@ -30,13 +30,43 @@ Met with Shane, have to update schedule.
 Talked with team to update schedule.
 We are going to add milestones for Login Page, cuinfo, and loan App editor.
 
+### Thursday 2/6
+Containter that we can make run on
+has django
+example data not there yet
+we will have to set up vue and the example database
+we eill get the xample data sometime next week
+
+Went over our revised schedule
+    - looks good
+
+loan app editor: 
+    - group is just an area
+
+requested screenshots of old system
+    - they will put them in slack
+
+Mike will be gone the first week of march.
+
+
 ## Week 4
 
-TODO
+### Tuesday 2/11
+Met with Shane.
+Got the docker container running on my laptop
+
+### Thursday 2/13
+Messed around more with docker.
+Went through django tutorial.
 
 ## Week 5
 
-TODO
+### Tuesday 2/18
+Met with Shane.
+Tried to get provided postgres dumps into our docker image.
+
+### Thursday 2/20
+Got a docker image working with a preloaded database.
 
 ## Week 6
 
