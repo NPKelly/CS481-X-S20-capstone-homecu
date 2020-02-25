@@ -15,6 +15,10 @@ services:
       backend:
         aliases:
           - db
+    volumes:
+      - ./bsu_schema.sql:/docker-entrypoint-initdb.d/01-schema.sql
+      - ./eformsschemamaster.sql:/docker-entrypoint-initdb.d/02-master.sql
+      - ./eformsschemadetail.sql:/docker-entrypoint-initdb.d/03-detail.sql
   api:
     build:
       context: .
