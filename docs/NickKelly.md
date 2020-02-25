@@ -63,4 +63,11 @@ This week I am going to create flow diagrams that show the general user interact
 I worked more on the flow diagrams completing the flow diagrams for the list of credit union feature and the manage users feature. I also updated the login feature flow diagram with the mockups made by Nealon Hager.
 
 
+## Week 6
+
+### February 25, 2020
+
+This week we begin development on the various features that we have been planning on making. Today I create tasks for the user stories defined for these features.
+
+
 
