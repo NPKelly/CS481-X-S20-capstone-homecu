@@ -11,3 +11,6 @@ config:
 
 dev-run: build
 	docker-compose -f ./.docker/docker-compose.yml --project-directory=.docker up
+
+clean:
+	docker-compose -f ./.docker/docker-compose.yml --project-directory=.docker rm
