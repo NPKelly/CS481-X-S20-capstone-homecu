@@ -69,5 +69,8 @@ I worked more on the flow diagrams completing the flow diagrams for the list of 
 
 This week we begin development on the various features that we have been planning on making. Today I create tasks for the user stories defined for these features.
 
+### February 26, 2020
+
+I created some more tasks based on the user stories that we have selected for the first "Sprint". I also worked on one of the tasks which required me to generate Model representations of each table in our database. 
 
 
