@@ -1,5 +1,11 @@
 # Nealon's Worklog
 
+## 2/27/2020
+Team meeting about progress and schedule, explained how docker might be slowing our team down for this project and not speeding it up. Spent more time trying to link static files.
+
+## 2/26/2020
+Spent the night trying to get static files to link to html
+
 ## 2/24/2020
 Finished mockups
 
