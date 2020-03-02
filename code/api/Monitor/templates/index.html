@@ -1,12 +1,31 @@
 <!DOCTYPE html>
+{% load static %}
 
 <html>
 	<head>
 		<title>HomeCU Monitor</title>
+		<link rel="stylesheet" type="text/css" href="{% static 'login.css' %}" >
+		<link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
 	</head>
 	<body>
-		<h1>HomeCU Monitor App</h1>
-        {% load static %}
-        <img src="{% static "moon.jpg" %}" alt="My image">
+		<div id="leftside">
+			<div id="green"></div>
+			<div id="homecumonitor">
+				<h1>HomeCU</h1>
+				<h1>monitor</h1>
+			</div>
+		</div>
+		<div id="rightside">
+			<div id="login">
+				<h2>Sign In</h2>
+				<form action="" method="post">
+					<label for=""></label>
+					<input id="username" type="text" placeholder="username">
+					<input id="password" type="password" placeholder="password">
+					<input id="submit" type="submit" value="Log In">
+				</form>
+			</div>
+		</div>
+        {% comment %} <img src="{% static "moon.jpg" %}" alt="My image"> {% endcomment %}
 	</body>
 </html>
