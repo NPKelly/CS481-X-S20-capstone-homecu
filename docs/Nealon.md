@@ -1,5 +1,8 @@
 # Nealon's Worklog
 
+# 3/1/2020
+First versionof login screen front end is done
+
 ## 2/27/2020
 Team meeting about progress and schedule, explained how docker might be slowing our team down for this project and not speeding it up. Spent more time trying to link static files.
 
