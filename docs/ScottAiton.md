@@ -70,7 +70,13 @@ Got a docker image working with a preloaded database.
 
 ## Week 6
 
-TODO
+### Tuesday 2/25
+Met with shane.
+Read about the built in django authentication.
+
+### Thursday 2/27
+Met with Mike, no meeting next week.
+Worked on getting static content to load with django.
 
 ## Week 7
 
