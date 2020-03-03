@@ -73,4 +73,16 @@ This week we begin development on the various features that we have been plannin
 
 I created some more tasks based on the user stories that we have selected for the first "Sprint". I also worked on one of the tasks which required me to generate Model representations of each table in our database. 
 
+### February 27, 2020
+
+The first task that I assigned myself to is to authenticate users when they attempt to log in. I researched how django handles things like retrieving information from the database and how passwords are hashed. It turns out django has a functionality called a User model which handles simple user creation and user authentication. To incorporate this model into our project I will have to extend this model so it fits with the user table that the sponsor provided us. 
+
+
+## Week 7
+
+### March 2, 2020
+
+Today I began implementing the User Verification feature for our login. Extending the AbstractBaseUser model was not difficult. Slight modifications had to be made to the database schema such as renaming 'username' to 'user_name', these probably could have been avoided but I could not find a solution. After the AbstractBaseUser model was extended a UserManager had to be created to handle actions that affect the users in the table such as queries on the DB. As development progressed I got to the point of taking input from the user. This is where I am currently blocked and I am researching the ways to handle input and authenticate it against the User models. 
+
+
 
