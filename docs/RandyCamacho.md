@@ -28,3 +28,9 @@ Began working on zenhub creating a few stories in preparation of the first sprin
 
 ## 2/23/20 
 Installed mysql workbench and began messing around with it. Still need to discuss with team on either mySql or postgreSQL.
+
+## 2/25/20
+Got the data added to the project. Went with Postgre. Added to zenhub in preparation for the first sprint. Need to assign tasks.
+
+## 2/27/20
+Meeting with sponsor, discussed what we have planned. Went over some questions about front end aspects. 
