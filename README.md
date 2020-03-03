@@ -21,7 +21,9 @@ This repo contains all the course materials for CS481 - Senior Design.
 | 4    | Docker Setup                       | [docker](labs/docker)                   | 2020-2-9                |
 | 5    | Testing Framework / Start research on tech                 | [tests](labs/tests)                     | 2020-2-16               |
 | 6    | Planning - 1  & Start of Sprint 1  | [Planning 1 ](labs/planning-1)          | 2020-2-23               |
-| 7-9  | Sprint 1   | [Sprint 1](labs/sprint-1)                           | 2020-3-15                |
+| 7  | Sprint 1 - Login Page   | [Sprint 1](labs/sprint-1)                           | 2020-3-15                |
+| 8  | Sprint 1 - Finish up login page & start credit union list page | [Sprint 1](labs/sprint-1)                           | 2020-3-15                |
+| 9  | Sprint 1 -  | [Sprint 1](labs/sprint-1)                           | 2020-3-15                |
 | 10   | Team collaboration & Continuation of Sprint 1            | [poster pamphlet](labs/pamphlet)        | 2020-3-22               |
 | 11   | Spring Break                  | Spring Break                            |                         |
 | 12   | Demo 1                        | [demo-1](labs/demo-1)                   | **Tuesday in class**    |
