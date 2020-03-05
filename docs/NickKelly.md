@@ -85,4 +85,9 @@ The first task that I assigned myself to is to authenticate users when they atte
 Today I began implementing the User Verification feature for our login. Extending the AbstractBaseUser model was not difficult. Slight modifications had to be made to the database schema such as renaming 'username' to 'user_name', these probably could have been avoided but I could not find a solution. After the AbstractBaseUser model was extended a UserManager had to be created to handle actions that affect the users in the table such as queries on the DB. As development progressed I got to the point of taking input from the user. This is where I am currently blocked and I am researching the ways to handle input and authenticate it against the User models. 
 
 
+### March 3, 2020
+
+Today I researched ways to avoid changing the schema of the database. I contacted our sponsor to ask if it was okay to change the schema of the database. They said that it was fine but handing off the project after it is completed would be easier if the schema didn't change. If we are going to use the AbstractBase User as we planned there is no way to avoid changing the schema. Through my research the only way to avoid it is to use authentication on the database. The database provided by the sponsor does not offer this so I am forced to change the schema of the database.
+
+
 
