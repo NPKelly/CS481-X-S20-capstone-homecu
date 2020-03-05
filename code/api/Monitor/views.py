@@ -5,3 +5,5 @@ from django.http import HttpResponse
 def index(request):
     return render(request, 'index.html')
 
+def creditunions(request):
+    return render(request, 'creditunions.html')

@@ -1,7 +1,10 @@
 # Nealon's Worklog
 
+## 3/5/2020
+Worked on front end for credit unions page
+
 ## 3/3/2020
-Worked on frontend for login page, updated readme
+Worked on frontend for login page, updated readme. Researched extending user models.
 
 ## 3/1/2020
 First versionof login screen front end is done

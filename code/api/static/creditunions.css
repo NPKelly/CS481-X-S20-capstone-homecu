@@ -1,0 +1,82 @@
+* {
+    font-family: 'Rubik', 'Sans-Serif';
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: grid;
+    grid-template-areas: 
+        'cu null search';
+    grid-template-columns: 1fr 2fr 1fr;
+    height: 4em;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+#angle {
+    height: 130%; width: 5%;
+    position: relative;
+    top: -20%;
+    background: #21BF73;
+    transform: rotate(15deg);
+    z-index: 100
+}
+
+#left {
+    grid-area: cu;
+    display: grid;
+    background: #21BF73;
+    padding-left: 1em;
+    height: 100%;
+    width: 100%;
+}
+
+#left > div {
+    align-self: center;
+}
+
+#cu {
+    background: #21BF73;
+    font-size: 32px;
+    color: white;
+    font-weight: bold;
+}
+
+#right {
+    grid-area: search;
+    display: grid;
+    justify-self: right;
+    align-self: center;
+    margin-right: 1em;
+}
+
+#searchbar {
+    width: 20em;
+    padding-left: 1em;
+    height: 3em;
+}
+
+#searchbutton {
+    height: 1.5em;
+    width: 1.5em;
+    position: relative;
+    top: .5em;
+    margin-left: 1em;
+}
+
+#right > form {
+    justify-self: right;
+    align-self: center;
+}
+
+#blank {
+    grid-area: null;
+    overflow: hidden;
+}
+
+input[type=text] {
+    outline: none;
+    border: none;
+    background: #eee;
+    height: 2.5em;
+}
