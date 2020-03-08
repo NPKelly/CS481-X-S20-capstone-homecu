@@ -74,13 +74,13 @@ CREATE TABLE public.bsu_eformsschemamaster (
 --
 
 CREATE TABLE public.bsu_officeusers (
-    user_name character(12) NOT NULL,
-    passwd character(255) NOT NULL,
+    user_name character varying(12) NOT NULL,
+    password character varying(128) NOT NULL,
     failedremain integer DEFAULT 5,
     forceremain integer,
-    lastlogin character(20),
-    priorlogin character(20),
-    failedlogin character(20),
+    last_login timestamp,
+    priorlogin timestamp,
+    failedlogin timestamp,
     pwchange timestamp with time zone,
     email character varying(100)
 );
