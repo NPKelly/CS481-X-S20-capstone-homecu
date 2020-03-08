@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import redirect, render
 from django.http import HttpResponse
 from django.contrib.auth import login
 from .forms import LoginForm
@@ -15,7 +15,7 @@ def index(request):
             user = authBackend.authenticate(username=username, password=password)
             if user is not None:
                 login(request=request, user=user)
-                # Redirect user to the correct page
+                return redirect("creditunions/")
     else:
         form = LoginForm()
     return render(request, 'index.html', {'form': form})
