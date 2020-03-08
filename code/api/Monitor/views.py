@@ -20,3 +20,5 @@ def index(request):
         form = LoginForm()
     return render(request, 'index.html', {'form': form})
 
+def creditunions(request):
+    return render(request, 'creditunions.html')
