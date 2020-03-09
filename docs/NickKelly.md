@@ -89,5 +89,9 @@ Today I began implementing the User Verification feature for our login. Extendin
 
 Today I researched ways to avoid changing the schema of the database. I contacted our sponsor to ask if it was okay to change the schema of the database. They said that it was fine but handing off the project after it is completed would be easier if the schema didn't change. If we are going to use the AbstractBase User as we planned there is no way to avoid changing the schema. Through my research the only way to avoid it is to use authentication on the database. The database provided by the sponsor does not offer this so I am forced to change the schema of the database.
 
+### March 8, 2020
+
+Finally finished the user authentication system for the login page. The problem that I was having was caused by the database appending whitespace to the end of the password field. When the password checking function would pull the user's password from the database the extra whitespace would invalidate the password match. I fixed this by altering the schema of the 'bsu_officeusers' table fo the database. I changed the data type of the password and user_name fields from 'character(X)' to 'character varying(X)'.
+
 
 
