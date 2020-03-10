@@ -98,4 +98,10 @@ Today I researched ways to avoid changing the schema of the database. I contacte
 Finally finished the user authentication system for the login page. The problem that I was having was caused by the database appending whitespace to the end of the password field. When the password checking function would pull the user's password from the database the extra whitespace would invalidate the password match. I fixed this by altering the schema of the 'bsu_officeusers' table of the database. I changed the data type of the password and user_name fields from 'character(X)' to 'character varying(X)'.
 
 
+## Week 9
+
+### March 10, 2020
+
+Met with the team and the instructor to review our progress throughout the semester. Overall our group is doing fantastic with only minor deficiencies. After the meeting I created a small prompt that informs the users that the supplied username and password are invalid. I also made a small python script to insert users into the db.
+
 
