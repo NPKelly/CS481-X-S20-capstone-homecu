@@ -5,6 +5,10 @@ used for assigning projects and course introductions.
 
 ## Week 2
 
+Note 3/10: I don't remember what I this week, I forgot to log it.
+
+## Week 3
+
 ### Tuesday 1/28
 Looked over Vue.js and django technologies
 
@@ -22,7 +26,7 @@ Some notes from the meeting:
 - We will meet every Thursday at 1:30pm on Google Meet.
 
 
-## Week 3
+## Week 4
 
 ### Tuesday 2/4
 Met with Shane, have to update schedule.
@@ -49,7 +53,7 @@ requested screenshots of old system
 Mike will be gone the first week of march.
 
 
-## Week 4
+## Week 5
 
 ### Tuesday 2/11
 Met with Shane.
@@ -59,7 +63,7 @@ Got the docker container running on my laptop
 Messed around more with docker.
 Went through django tutorial.
 
-## Week 5
+## Week 6
 
 ### Tuesday 2/18
 Met with Shane.
@@ -68,7 +72,7 @@ Tried to get provided postgres dumps into our docker image.
 ### Thursday 2/20
 Got a docker image working with a preloaded database.
 
-## Week 6
+## Week 7
 
 ### Tuesday 2/25
 Met with shane.
@@ -78,13 +82,10 @@ Read about the built in django authentication.
 Met with Mike, no meeting next week.
 Worked on getting static content to load with django.
 
-## Week 7
-
-TODO
-
 ## Week 8
 
-TODO
+### Tuesday 3/3
+Worked on adding example clients to database.
 
 ## Week 9
 
