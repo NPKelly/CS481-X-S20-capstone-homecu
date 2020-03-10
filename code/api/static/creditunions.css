@@ -80,3 +80,19 @@ input[type=text] {
     background: #eee;
     height: 2.5em;
 }
+
+main,tr {
+    width: 100%;
+}
+
+table {
+    width: 80%;
+    margin-top: 5em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th {
+    text-align: left;
+    color: #aaa;
+}

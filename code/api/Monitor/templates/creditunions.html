@@ -24,5 +24,32 @@
                 </form>
             </div>
         </header>
+        <main>
+            <table>
+                <tr>
+                    <th>Credit Union</th>
+                    <th>Vendor</th>
+                    <th>CU Name</th>
+                    <th>State</th>
+                    <th>Server</th>
+                    <th>Odyssey Status</th>
+                    <th>Type</th>
+                </tr>
+                {% comment %} Django for start {% endcomment %}
+                {% for instance in data %}
+                    <tr>{{instance}}<tr>
+                {% endfor %}
+                {% comment %} <tr>
+                    <td>cruisecu</td>
+                    <td>CRUISE</td>
+                    <td>Cruise CD Development</td>
+                    <td></td>
+                    <td>localhost</td>
+                    <td>BETA</td>
+                    <td>L / A / V</td>
+                </tr> {% endcomment %}
+                {% comment %} Django for end {% endcomment %}
+            </table>
+        </main>
     </body>
 </html>

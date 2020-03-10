@@ -3,6 +3,10 @@ from django.http import HttpResponse
 from django.contrib.auth import login
 from .forms import LoginForm
 from .authentication_backend import AuthBackend
+from django.core import serializers
+from .models import BsuClientlist
+
+data = serializers.serialize( "python", BsuClientlist.objects.all() )
 
 # Create your views here.
 def index(request):
