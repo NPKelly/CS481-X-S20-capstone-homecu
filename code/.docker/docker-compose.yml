@@ -19,6 +19,7 @@ services:
       - ./bsu_schema.sql:/docker-entrypoint-initdb.d/01-schema.sql
       - ./eformsschemamaster.sql:/docker-entrypoint-initdb.d/02-master.sql
       - ./eformsschemadetail.sql:/docker-entrypoint-initdb.d/03-detail.sql
+      - ./example_cus.sql:/docker-entrypoint-initdb.d/04-example-cus.sql
   api:
     build:
       context: .
