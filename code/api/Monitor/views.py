@@ -16,9 +16,14 @@ def index(request):
             if user is not None:
                 login(request=request, user=user)
                 return redirect("creditunions/")
+            else:
+                invalidLogin = True
+        else:
+            invalidLogin = True
     else:
         form = LoginForm()
-    return render(request, 'index.html', {'form': form})
+        invalidLogin = False
+    return render(request, 'index.html', {'form': form, 'invalidLogin' : invalidLogin})
 
 def creditunions(request):
     return render(request, 'creditunions.html')
