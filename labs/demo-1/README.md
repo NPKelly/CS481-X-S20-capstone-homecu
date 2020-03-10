@@ -4,13 +4,7 @@ You will present your project to the class. Due to teams using different technol
 
 ## Base requirements
 
-At a minimum your demo **MUST** contain the following:
-
-- Show your project building from the command line
-- Show your project executing your tests
-- Show the results of a recent CI run
-- Show your project automatically build a deployment package
-- Show progress from your first sprint. What you said you were going to do in your [planning-1](../planning-1) document.
+  TODO: Tell me what you are doing :)
 
 [Here](../../docs/demo-slide-deck.pptx) is an example presentation that you can build on.
 
