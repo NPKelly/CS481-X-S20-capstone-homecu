@@ -4,6 +4,10 @@
 
 ## Week 2
 
+Created teams and met with teammates.
+
+## Week 3
+
 ### January 28, 2020
 
 Wrote questions to ask during the sponsor meet up that is taking place on 1/30. Had a short meetup with Shane to discuss documenting individual contribution throughout the project.
@@ -16,7 +20,7 @@ Sat in on a meeting with the sponsor of the project to discuss an overview of th
 
 Wrote short descriptions on the features that are to be implemented throughout the course of the project. 
 
-## Week 3
+## Week 4
 
 ### February 4, 2020
 
@@ -30,7 +34,7 @@ Met with the sponsor to discuss the docker environment and the schedule going fo
 
 Applied the github patch that the sponsor provided to the repository.
 
-## Week 4
+## Week 5
 
 ### February 10, 2020
 
@@ -52,7 +56,7 @@ I worked through a tutorial to get a better understanding of the django framewor
 
 I worked through a guide on testing django applications. I learned that all testing of the django side of our application will take place in a file called tests.py. This file will contains subclasses of the django.test.TestCase for each of the models/views/etc. that we will test. This file may get crowded with classes and function so it will be important to keep a consistent naming scheme and documentation.
 
-## Week 5
+## Week 6
 
 ### February 18, 2020
 
@@ -63,7 +67,7 @@ This week I am going to create flow diagrams that show the general user interact
 I worked more on the flow diagrams completing the flow diagrams for the list of credit union feature and the manage users feature. I also updated the login feature flow diagram with the mockups made by Nealon Hager.
 
 
-## Week 6
+## Week 7
 
 ### February 25, 2020
 
@@ -78,7 +82,7 @@ I created some more tasks based on the user stories that we have selected for th
 The first task that I assigned myself to is to authenticate users when they attempt to log in. I researched how django handles things like retrieving information from the database and how passwords are hashed. It turns out django has a functionality called a User model which handles simple user creation and user authentication. To incorporate this model into our project I will have to extend this model so it fits with the user table that the sponsor provided us. 
 
 
-## Week 7
+## Week 8
 
 ### March 2, 2020
 
@@ -91,7 +95,7 @@ Today I researched ways to avoid changing the schema of the database. I contacte
 
 ### March 8, 2020
 
-Finally finished the user authentication system for the login page. The problem that I was having was caused by the database appending whitespace to the end of the password field. When the password checking function would pull the user's password from the database the extra whitespace would invalidate the password match. I fixed this by altering the schema of the 'bsu_officeusers' table fo the database. I changed the data type of the password and user_name fields from 'character(X)' to 'character varying(X)'.
+Finally finished the user authentication system for the login page. The problem that I was having was caused by the database appending whitespace to the end of the password field. When the password checking function would pull the user's password from the database the extra whitespace would invalidate the password match. I fixed this by altering the schema of the 'bsu_officeusers' table of the database. I changed the data type of the password and user_name fields from 'character(X)' to 'character varying(X)'.
 
 
 
