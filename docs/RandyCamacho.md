@@ -20,6 +20,8 @@ Got Docker setup and began to familiarize myself with the environment. Reviewed 
 ## 2/13/20
 Meeting with sponsor. Got the data we needed for the app. Began looking more into Django and Vue. Decided as a team that we will all work both front end and back end on the project so we have experience doing both.
 
+
+
 ## 2/18/20
 Group Meeting. Discussed what was coming up with the first sprint. Discussed using zenhub the tool we used in 471 senior design to keep track of our sprint.
 
@@ -34,3 +36,12 @@ Got the data added to the project. Went with Postgre. Added to zenhub in prepara
 
 ## 2/27/20
 Meeting with sponsor, discussed what we have planned. Went over some questions about front end aspects. 
+
+## 3/3/20
+Met with team and assigned myself a task, Got to the end of week 9 for sprint. Will work on creating a new user for the application.
+
+## 3/5/20
+No meeting just worked on task.
+
+## 3/9/20
+Did a get pull to see new changes. Still need to finish my task.

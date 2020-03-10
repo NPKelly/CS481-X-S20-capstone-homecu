@@ -31,6 +31,7 @@ ALLOWED_HOSTS = ['0.0.0.0', 'localhost']
 # Application definition
 
 INSTALLED_APPS = [
+    'Monitor.apps.MonitorConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -38,6 +39,14 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 ]
+
+# Change the default table that is used to authenticate users
+
+AUTH_USER_MODEL = 'Monitor.BsuOfficeusers'
+
+AUTHENTICATION_BACKENDS = (
+    'Monitor.authentication_backend.AuthBackend',
+)
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',

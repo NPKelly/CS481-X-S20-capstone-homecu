@@ -18,10 +18,9 @@
 		<div id="rightside">
 			<div id="login">
 				<h2>Sign In</h2>
-				<form action="" method="post">
-					<label for=""></label>
-					<input id="username" type="text" placeholder="username">
-					<input id="password" type="password" placeholder="password">
+				<form action="" method="POST">
+					{% csrf_token %}
+					{{ form }}
 					<input id="submit" type="submit" value="Log In">
 				</form>
 			</div>
