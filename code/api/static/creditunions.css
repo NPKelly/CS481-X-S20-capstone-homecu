@@ -96,3 +96,7 @@ th {
     text-align: left;
     color: #aaa;
 }
+
+td {
+    padding-top: 1em;
+}

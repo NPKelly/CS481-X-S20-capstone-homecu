@@ -6,7 +6,7 @@ from .authentication_backend import AuthBackend
 from django.core import serializers
 from .models import BsuClientlist
 
-data = serializers.serialize( "python", BsuClientlist.objects.all() )
+data = BsuClientlist.objects.all()
 
 # Create your views here.
 def index(request):
@@ -30,4 +30,5 @@ def index(request):
     return render(request, 'index.html', {'form': form, 'invalidLogin' : invalidLogin})
 
 def creditunions(request):
-    return render(request, 'creditunions.html')
+    args = {'data' : data}
+    return render(request, 'creditunions.html',args)

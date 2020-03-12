@@ -2,6 +2,9 @@
 
 ## Week 9
 
+### 3/12/2020
+Was able to link the back end model to display in the html. Adjusted credit unions list css.
+
 ### 3/10/2020
 Filled out peer review. Worked on front end for credit unions page. Migrated databases.
 
