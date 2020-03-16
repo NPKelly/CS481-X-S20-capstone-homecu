@@ -104,4 +104,10 @@ Finally finished the user authentication system for the login page. The problem 
 
 Met with the team and the instructor to review our progress throughout the semester. Overall our group is doing fantastic with only minor deficiencies. After the meeting I created a small prompt that informs the users that the supplied username and password are invalid. I also made a small python script to insert users into the db.
 
+## Week 10
+
+### March 16, 2020
+
+One of the features that the sponsor wanted was a secure login. I had already implemented the authentication of the users but one more step to make the login secure was to implement a block for brute force attacks. If a user fails to enter the correct password for the specified username five times in a row, that username will be blocked from logging in for 5 minutes. After the five minute wait time, if the user enters an incorrect password the five minutes will start over. With these precautionary steps the login system is more secure.
+
 
