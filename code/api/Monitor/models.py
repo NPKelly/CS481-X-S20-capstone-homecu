@@ -78,7 +78,7 @@ class UserManager(BaseUserManager):
 
 class BsuOfficeusers(AbstractBaseUser):
     user_name = models.CharField(primary_key=True, max_length=12)
-    failedremain = models.IntegerField(blank=True, null=True)
+    failedremain = models.IntegerField(blank=True, null=True, default=5)
     forceremain = models.IntegerField(blank=True, null=True)
     priorlogin = models.CharField(max_length=20, blank=True, null=True)
     failedlogin = models.CharField(max_length=20, blank=True, null=True)
