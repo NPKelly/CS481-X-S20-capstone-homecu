@@ -45,7 +45,7 @@ def newUser(request):
 		if form.is_valid():
 			username = form.cleaned_data['user_name']
 			password = form.cleaned_data['password']
-			return redirect('creditunions/')
+			return redirect('creditunions')
 	else:
 		form = SignUpForm()
 	return render(request, 'newUser.html', {'form': form})
