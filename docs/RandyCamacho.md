@@ -57,3 +57,10 @@ No meeting just worked on task.
 
 ## 3/9/20
 Did a get pull to see new changes. Still need to finish my task.
+
+# Week 9
+## 3/10/20
+Met with team and professor to discuss progress. We are doing well and are continuing to make progress on the project.
+
+## 3/16/20
+Added newUser page. Still need to finish up backend work and add an option for admin registration.
