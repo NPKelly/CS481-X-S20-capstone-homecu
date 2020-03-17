@@ -2,6 +2,12 @@ html {
     height: 100%;
 }
 
+#signup {
+    margin-top: 1em;
+    font-size: 15px;
+    text-align: center;
+}
+
 body {
     display: grid;
     position: relative;
@@ -43,7 +49,7 @@ input[type=submit] {
     color: white;
     font-weight: bold;
     background: #21BF73;
-    width: 25%;
+    width: 100%;
     right: 0;
 }
 
@@ -95,7 +101,7 @@ form {
 #submit {
     cursor: pointer;
     display: block;
-    margin: 1em 0em 0em auto;
+    margin: 1em 0em 0em 0em;
 }
 
 #LoginError {

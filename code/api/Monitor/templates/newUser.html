@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+{% load static %}
+
+<html>
+	<head>
+		<title> HomeCU Sign Up </title>
+		<link rel="stylesheet" type="text/css" href="{% static 'signup.css' %}" >
+                <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<header>
+			<div id="left">
+				<div>
+					<h1 id="cu">Sign Up</h1>
+				</div>
+			</div>
+			<div id="blank">
+				<div id="angle"></div>
+			</div>
+			<div id="right"></div>
+		</header>
+		<div id="howto">
+			<h2>Please Fill out Form</h2>
+		</div>
+		<div id="signupform">
+			<form action="" method="POST">
+				{% csrf_token %}
+				{{ form }}
+				<input id="submit" type="submit" value="Sign Up">
+			</form>
+		</div>
+	</body>
+</html>
