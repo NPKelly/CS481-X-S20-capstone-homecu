@@ -64,6 +64,23 @@ header {
     margin-left: 1em;
 }
 
+#right {
+    display: flex;
+    flex-direction: row;
+}
+
+input[type=submit] {
+    background: white;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    padding-left: 1em;
+}
+
+input[type=submit]:hover {
+    cursor: pointer;
+}
+
 #right > form {
     justify-self: right;
     align-self: center;
@@ -99,4 +116,10 @@ th {
 
 td {
     padding-top: 1em;
+}
+
+.clickable {
+    color: #21BF73;
+    text-decoration: underline;
+    cursor: pointer;
 }

@@ -3,7 +3,8 @@ from django.http import HttpResponse
 from django.contrib.auth import login
 from .forms import LoginForm
 from .forms import SignUpForm
-from django.contrib.auth import login, authenticate
+from django.contrib.auth import login, authenticate,logout
+from django.template import RequestContext
 
 from .authentication_backend import AuthBackend
 from django.core import serializers
@@ -51,5 +52,13 @@ def newUser(request):
 	return render(request, 'newUser.html', {'form': form})
 
 def creditunions(request):
-    args = {'data' : data}
-    return render(request, 'creditunions.html',args)
+    if request.user.is_authenticated():
+        if request.method == 'POST':
+            logout(request)
+            return render(request,'newUser.html',{})
+
+        args = {'data' : data}
+        return render(request, 'creditunions.html',args)
+    else:
+        return render(request,'index',{})
+

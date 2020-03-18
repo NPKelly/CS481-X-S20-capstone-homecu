@@ -1,5 +1,11 @@
 # Nealon's Worklog
 
+## Week 10
+
+## 3/17/2020
+Charging port on my laptop broke last friday so I had to wait until a new one came before I could do any work.
+Worked on Credit unions front end & logout functionality.
+
 ## Week 9
 
 ### 3/12/2020
