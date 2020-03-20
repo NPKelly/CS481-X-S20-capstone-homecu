@@ -52,13 +52,13 @@ def newUser(request):
 	return render(request, 'newUser.html', {'form': form})
 
 def creditunions(request):
-    if request.user.is_authenticated():
-        if request.method == 'POST':
-            logout(request)
-            return render(request,'newUser.html',{})
+    # if request.user.is_authenticated():
+    if request.method == 'POST':
+        logout(request)
+        return redirect('index')
 
-        args = {'data' : data}
-        return render(request, 'creditunions.html',args)
-    else:
-        return render(request,'index',{})
+    args = {'data' : data}
+    return render(request, 'creditunions.html',args)
+    # else:
+    #     return render(request,'index',{})
 
