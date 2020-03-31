@@ -89,11 +89,16 @@ Worked on adding example clients to database.
 
 ## Week 9
 
-TODO
+### Tuesday 3/10
+Finished adding example clients to database.
 
 ## Week 10
 
-TODO
+### Tuesday 3/17
+Talked about transition to online in class.
+
+### Thursday 3/19
+Gave demo of client list to HomeCU
 
 ## Week 11
 
