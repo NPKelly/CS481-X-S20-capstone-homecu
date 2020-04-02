@@ -67,13 +67,26 @@ input {
     outline: none;
     border: none;
     border-bottom: 1px solid #aaa;
-    width: calc(100% - 2em);
-    margin-top: 2em;
+    //width: calc(100% - 2em);
+    list-style: none;
+    margin-Top: 2em;
     font-size: 14px;
     padding: 1em;
     background: white;
 }
 
+ul {
+   list-style: none;
+}
+
+li {
+   display: inline-block;
+   padding-right: 2em;
+}
+
+label {
+   margin-top: 2em;
+}
 input[type=submit] {
     border: none;
     color: white;
@@ -103,6 +116,15 @@ input[type=submit] {
 form {
     display: grid;
     grid-template-columns: 1fr;
+}
+
+#SignUpError {
+   color: red;
+   margin-top: 1em;
+}
+
+form > h4 {
+  color: red;
 }
 
 #signupform {
