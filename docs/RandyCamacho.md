@@ -64,3 +64,20 @@ Met with team and professor to discuss progress. We are doing well and are conti
 
 ## 3/16/20
 Added newUser page. Still need to finish up backend work and add an option for admin registration.
+
+# Week 10
+## 3/17/20
+Made a plan for everything being moved online
+
+## 3/19/20
+Met with Sponsor to discuss how the project will be effected by the sudden move to all online.
+
+# Week 11
+## Spring Break
+
+# Week 12
+## 3/31/20
+Team meeting with shane to dicsuss progress. We are continuing to add to the project as much as we can. Added backend to creating a user, need to fix and add a few things but the overall function of adding a user works.
+
+## 4/2/20
+Demo with sponsor
