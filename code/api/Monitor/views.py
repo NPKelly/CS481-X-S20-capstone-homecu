@@ -10,8 +10,10 @@ from .authentication_backend import AuthBackend
 from .newUser_backend import newUserBackend
 from django.core import serializers
 from .models import BsuClientlist
+from .models import BsuEformsschemamaster
+from .models import BsuEformsschemadetail
 
-data = BsuClientlist.objects.all()
+
 
 # Create your views here.
 def index(request):
@@ -86,8 +88,14 @@ def creditunions(request):
         logout(request)
         return redirect('index')
 
+    data = BsuClientlist.objects.all()
     args = {'data' : data}
     return render(request, 'creditunions.html',args)
     # else:
     #     return render(request,'index',{})
+
+def loanMaintenance(request):
+	master = BsuEformsschemamaster.objects.all()
+	detail = BsuEformsschemadetail.objects.all()
+	return render(request, 'loanMaintenance.html',{'master':master,'detail':detail})
 

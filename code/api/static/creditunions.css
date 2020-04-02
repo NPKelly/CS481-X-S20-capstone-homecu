@@ -123,3 +123,22 @@ td {
     text-decoration: underline;
     cursor: pointer;
 }
+
+.dropdown_header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.dropdown_header > svg {
+    margin-left: 1em;
+}
+
+.dropdown_header > svg:hover {
+    cursor: pointer;
+}
+
+#dropdowns {
+    margin: 3em;
+}
