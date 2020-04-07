@@ -110,4 +110,30 @@ Met with the team and the instructor to review our progress throughout the semes
 
 One of the features that the sponsor wanted was a secure login. I had already implemented the authentication of the users but one more step to make the login secure was to implement a block for brute force attacks. If a user fails to enter the correct password for the specified username five times in a row, that username will be blocked from logging in for 5 minutes. After the five minute wait time, if the user enters an incorrect password the five minutes will start over. With these precautionary steps the login system is more secure.
 
+### March 17, 2020 
 
+Met with the entire class to discuss how the class will be transitioning online due to the coronavirus. It seems like many of the in-class requirements for the class are being trimmed and each team will have to determine how their projects will be affected.
+
+### March 19, 2020
+
+Gave a short demo to our sponsor. Progress for the project is going as we planned and the feedback from the sponsor will help direct our efforts for the upcoming weeks.
+
+### March 21, 2020
+
+Created a document that discussed how the current situation will affect the teams ability to work on the project. We do not believe that we will be significantly affected and are planning to continue working as normal.
+
+## Week 11
+
+Spring Break
+
+## Week 12
+
+### March 31, 2020
+
+Met with Shane for the first time since the class was moved to online. We discussed how the project has been going and the ways in which the team has been affected.
+
+### April 5, 2020 
+
+The team created a demo video that shows the features that are currently implemented for the project. The video can be found at (https://www.youtube.com/watch?v=uVen6xU8u1Y)[https://www.youtube.com/watch?v=uVen6xU8u1Y]. 
+
+## Week 13
