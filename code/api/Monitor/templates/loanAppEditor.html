@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+{% load static %}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loan App Editor</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'loanAppEditor.css' %}" >
+    <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="{% static 'loanAppGroups.js' %}"></script>
+</head>
+<body>
+    <header>
+        <div id="left">
+            <a href="../creditunions" id="back">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M16.67 0l2.83 2.829-9.339 9.175 9.339 9.167-2.83 2.829-12.17-11.996z"/></svg>
+                <h2 id="cu">Back</h1>
+            </a>
+        </div>
+        <div id="blank">
+            <div id="angle"></div>
+        </div>
+    </header>
+    <main>
+        <div id="groups">
+            <div class="group">
+                <div class="groupHeader">
+                    <img class="x" src="{% static 'x.svg' %}" alt="">
+                    <h3>Page</h3>
+                </div>
+                <div class="subGroup">
+                    <h4>Group</h4>
+                    <div class="line">
+                        <img class="x" src="{% static 'x.svg' %}" alt="">
+                        <select>
+                            <option value="pageheader">Page Header</option>
+                        </select>
+                        <input type="text" name="" id="">
+                    </div>
+                    <div class="line">
+                        <img class="x" src="{% static 'x.svg' %}" alt="">
+                        <select>
+                            <option value="label">Label</option>
+                        </select>
+                        <input type="text" name="" id="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="info">
+            <div>
+                <h2>Core</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, natus quas sapiente culpa facilis ipsam repellat numquam fugiat, cum a voluptatem quia! Soluta nesciunt tempora ex atque laborum dolorum? Sapiente tenetur omnis ea in saepe molestias maiores numquam officia fugiat vel quia quaerat explicabo ullam amet, error minus, id nam voluptate? Adipisci nobis, laudantium excepturi neque delectus eum accusantium? Totam ipsam animi quos minus maiores, corrupti eius quam sapiente consectetur, dolores laudantium eligendi optio ratione excepturi hic dicta ea quia accusamus fuga nemo. Nihil inventore et deserunt porro distinctio minima, repellendus doloremque, sit, illo similique dicta iusto placeat error quis.</p>
+            </div>
+            <div>
+                <h2>Attributes</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, natus quas sapiente culpa facilis ipsam repellat numquam fugiat, cum a voluptatem quia! Soluta nesciunt tempora ex atque laborum dolorum? Sapiente tenetur omnis ea in saepe molestias maiores numquam officia fugiat vel quia quaerat explicabo ullam amet, error minus, id nam voluptate? Adipisci nobis, laudantium excepturi neque delectus eum accusantium? Totam ipsam animi quos minus maiores, corrupti eius quam sapiente consectetur, dolores laudantium eligendi optio ratione excepturi hic dicta ea quia accusamus fuga nemo. Nihil inventore et deserunt porro distinctio minima, repellendus doloremque, sit, illo similique dicta iusto placeat error quis.</p>
+            </div>
+            <div>
+                <h2>Validation</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, natus quas sapiente culpa facilis ipsam repellat numquam fugiat, cum a voluptatem quia! Soluta nesciunt tempora ex atque laborum dolorum? Sapiente tenetur omnis ea in saepe molestias maiores numquam officia fugiat vel quia quaerat explicabo ullam amet, error minus, id nam voluptate? Adipisci nobis, laudantium excepturi neque delectus eum accusantium? Totam ipsam animi quos minus maiores, corrupti eius quam sapiente consectetur, dolores laudantium eligendi optio ratione excepturi hic dicta ea quia accusamus fuga nemo. Nihil inventore et deserunt porro distinctio minima, repellendus doloremque, sit, illo similique dicta iusto placeat error quis.</p>
+            </div>
+            <div>
+                <h2>Extra</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, natus quas sapiente culpa facilis ipsam repellat numquam fugiat, cum a voluptatem quia! Soluta nesciunt tempora ex atque laborum dolorum? Sapiente tenetur omnis ea in saepe molestias maiores numquam officia fugiat vel quia quaerat explicabo ullam amet, error minus, id nam voluptate? Adipisci nobis, laudantium excepturi neque delectus eum accusantium? Totam ipsam animi quos minus maiores, corrupti eius quam sapiente consectetur, dolores laudantium eligendi optio ratione excepturi hic dicta ea quia accusamus fuga nemo. Nihil inventore et deserunt porro distinctio minima, repellendus doloremque, sit, illo similique dicta iusto placeat error quis.</p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

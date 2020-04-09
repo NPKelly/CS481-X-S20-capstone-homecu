@@ -1,5 +1,14 @@
 # Nealon's Worklog
 
+## Week 12
+
+### 4/8/2020
+Tried to work on frontend for loan app editor, but 
+VM decided to die so I had to re-setup the whole project.
+
+### 4/7/2020
+Meeting with Shane
+
 ## Week 11
 
 ### 4/2/20

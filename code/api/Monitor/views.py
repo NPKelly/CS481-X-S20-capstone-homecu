@@ -99,3 +99,5 @@ def loanMaintenance(request):
 	detail = BsuEformsschemadetail.objects.all()
 	return render(request, 'loanMaintenance.html',{'master':master,'detail':detail})
 
+def loanAppEditor(request):
+	return render(request, 'loanAppEditor.html')
