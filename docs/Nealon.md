@@ -2,6 +2,9 @@
 
 ## Week 12
 
+### 4/12/2020
+Worked on credit unions page trying to get vue and django to work together
+
 ### 4/9/2020
 Worked on front end for Loan app editor page.
 

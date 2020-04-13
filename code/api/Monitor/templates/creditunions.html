@@ -7,7 +7,13 @@
             <title>Monitor Credit Unions</title>
             <link rel="stylesheet" type="text/css" href="{% static 'creditunions.css' %}" >
             <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+            <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+            {% comment %} <script defer src="{% static 'creditUnions.js' %}"></script> {% endcomment %}
         </head>
+        <script type='text/javascript'>
+            console.log("TEST");
+            var test;
+        </script>
         <body>
             <header>
                 <div id="left">
@@ -30,7 +36,7 @@
                 </div>
             </header>
             <main>
-                <table>
+                <table id="table">
                     <tr>
                         <th>Credit Union</th>
                         <th>Vendor</th>
@@ -42,10 +48,10 @@
                     </tr>
                     {% for instance in data %}
                         <tr> 
-                            <td>{{instance.code}}</td>
+                            <td>{{instance.pk}}</td>
                             <td></td>
-                            <td class="clickable">{{instance.name}}</td>
-                            <td>{{instance.state}}</td>
+                            <td class="clickable">{{instance.fields.name}}</td>
+                            <td>{{instance.fields.state}}</td>
                         </tr>
                     {% endfor %}
                 </table>
@@ -53,3 +59,6 @@
         </body>
     </html>
 {% endif %}
+
+
+{% comment %} [{"model": "Monitor.bsuclientlist", "pk": "BobCU     ", "fields": {"name": "Bob's Credit Union                      ", "addr1": "1 S. Capitol                            ", "addr2": "                                        ", "city": "Boise                    ", "state": "Idaho          ", "zip": "55555          ", "email": "bob@bob.bob                             ", "main_phone": "555-555-5555        ", "after_hours_phone": "Bob Bobberson       ", "ceo_mgr": "Bob!                                    ", "comments": null}}, {"model": "Monitor.bsuclientlist", "pk": "SoundCU   ", "fields": {"name": "Sound Credit Union                      ", "addr1": "2 1st street                            ", "addr2": "                                        ", "city": "Seattle                  ", "state": "Washington     ", "zip": "55255          ", "email": "contact@soundcu.example                 ", "main_phone": "555-555-2837        ", "after_hours_phone": "Alice Doe           ", "ceo_mgr": "                                        ", "comments": null}}, {"model": "Monitor.bsuclientlist", "pk": "ExampleCU ", "fields": {"name": "Example Credit Union                    ", "addr1": "163 George St.                          ", "addr2": "Suite 101                               ", "city": "Buffalo                  ", "state": "New York       ", "zip": "55325          ", "email": "contact@example.com                     ", "main_phone": "555-555-28327       ", "after_hours_phone": "Joe Schmoe          ", "ceo_mgr": "                                        ", "comments": null}}] {% endcomment %}

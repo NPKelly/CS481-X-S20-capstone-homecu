@@ -12,6 +12,9 @@ from django.core import serializers
 from .models import BsuClientlist
 from .models import BsuEformsschemamaster
 from .models import BsuEformsschemadetail
+import json
+from django.core import serializers
+from django.http import HttpResponse
 
 
 
@@ -89,10 +92,10 @@ def creditunions(request):
         return redirect('index')
 
     data = BsuClientlist.objects.all()
-    args = {'data' : data}
+    data_json = json.loads(serializers.serialize('json',data))
+    args = {'data' : data_json}
+    context = {}
     return render(request, 'creditunions.html',args)
-    # else:
-    #     return render(request,'index',{})
 
 def loanMaintenance(request):
 	master = BsuEformsschemamaster.objects.all()
