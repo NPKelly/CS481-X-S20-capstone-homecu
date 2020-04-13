@@ -81,3 +81,10 @@ Team meeting with shane to dicsuss progress. We are continuing to add to the pro
 
 ## 4/2/20
 Demo with sponsor
+
+# Week 13
+## 4/5/20
+Recorded Demo with team and uploaded video to youtube.
+
+## 4/7/20
+Team meeting with Shane, discussed progress and next step which is the poster. 
