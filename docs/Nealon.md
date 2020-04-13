@@ -2,6 +2,9 @@
 
 ## Week 12
 
+### 4/9/2020
+Worked on front end for Loan app editor page.
+
 ### 4/8/2020
 Tried to work on frontend for loan app editor, but 
 VM decided to die so I had to re-setup the whole project.
