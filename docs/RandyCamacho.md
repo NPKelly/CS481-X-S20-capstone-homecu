@@ -88,3 +88,11 @@ Recorded Demo with team and uploaded video to youtube.
 
 ## 4/7/20
 Team meeting with Shane, discussed progress and next step which is the poster. 
+
+# Week 14
+## 4/9/20
+No meeting with sponsor worked on minor features and process for poster.
+
+
+
+
