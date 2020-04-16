@@ -20,31 +20,31 @@ from django.http import HttpResponse
 
 # Create your views here.
 def index(request):
-    login_errors = []
-    if request.method == 'POST':
-        form = LoginForm(request.POST)
-        if form.is_valid():
-            try:
-                authBackend = AuthBackend()
-                username = form.cleaned_data["user_name"]
-                password = form.cleaned_data["password"]
-                user = authBackend.authenticate(username=username, password=password)
-                if user is not None:
-                    # Successful user login
-                    login(request=request, user=user)
-                    return redirect("creditunions/")
-                else:
-                    # Failed user login
-                    login_errors.append("Invalid Username/password")
-            except ValueError:
-                # The user is blocked from logging in due to repeated fails
-                login_errors.append("Too many failed logins, wait 5 minutes before trying again.")                
-        else:
-            # Invalid user input
-            login_errors.append("Please sumbit both a Username and Password.")
-    else:
-        form = LoginForm()
-    return render(request, 'index.html', {'form': form, 'errors': login_errors})
+	login_errors = []
+	if request.method == 'POST':
+		form = LoginForm(request.POST)
+		if form.is_valid():
+			try:
+				authBackend = AuthBackend()
+				username = form.cleaned_data["user_name"]
+				password = form.cleaned_data["password"]
+				user = authBackend.authenticate(username=username, password=password)
+				if user is not None:
+					# Successful user login
+					login(request=request, user=user)
+					return redirect("creditunions/")
+				else:
+					# Failed user login
+					login_errors.append("Invalid Username/password")
+			except ValueError:
+				# The user is blocked from logging in due to repeated fails
+				login_errors.append("Too many failed logins, wait 5 minutes before trying again.")                
+		else:
+			# Invalid user input
+			login_errors.append("Please sumbit both a Username and Password.")
+	else:
+		form = LoginForm()
+	return render(request, 'index.html', {'form': form, 'errors': login_errors})
 
 def newUser(request):
 	signup_errors = []
@@ -86,16 +86,46 @@ def newUser(request):
 	return render(request, 'newUser.html', {'form': form, 'errors': signup_errors})
 
 def creditunions(request):
-    # if request.user.is_authenticated():
-    if request.method == 'POST':
-        logout(request)
-        return redirect('index')
+    # Check if the user is logged in, if  they are not redirect them to the login page
+	if not request.user.is_authenticated:
+		logout(request)
+		return redirect('index')
+	# Check if the search bar was used
+	if request.method == 'POST':
+		# Check if the POST array contains the searchbar value
+		if "searchbar" in request.POST:
+			# Get the value mapped to "searchbar" from the POST array
+			search_input = request.POST.get("searchbar")
+			# If the value is empty, show all the clients
+			if search_input == "":
+				args = allClients()
+			else:
+				try:
+					# Get the client from the list of clients using the user input
+					data = BsuClientlist.objects.get(pk=search_input)
+					args = {'single': True, 'data' : data}
+				except:
+					# Exception will occurr if the user input does not relate to an existing client
+					data = None
+					args = allClients()
+					args['search_error'] = True
+		else:
+			args = allClients()
+	else:
+		# Default Behavior
+		args = allClients()
+	return render(request, 'creditunions.html', args)
 
-    data = BsuClientlist.objects.all()
-    data_json = json.loads(serializers.serialize('json',data))
-    args = {'data' : data_json}
-    context = {}
-    return render(request, 'creditunions.html',args)
+def allClients():
+	data = BsuClientlist.objects.all()
+	data_json = json.loads(serializers.serialize('json',data))
+	args = {'data' : data_json}
+	return args
+
+def logoutPage(request):
+	if request.user.is_authenticated:
+		logout(request)
+	return redirect('index')
 
 def loanMaintenance(request):
 	master = BsuEformsschemamaster.objects.all()
