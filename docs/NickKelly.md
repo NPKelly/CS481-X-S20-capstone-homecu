@@ -137,3 +137,18 @@ Met with Shane for the first time since the class was moved to online. We discus
 The team created a demo video that shows the features that are currently implemented for the project. The video can be found at (https://www.youtube.com/watch?v=uVen6xU8u1Y)[https://www.youtube.com/watch?v=uVen6xU8u1Y]. 
 
 ## Week 13
+
+### April 9, 2020
+
+Met with the sponsor to clear up some confusion about an aspect of the Loan App Editor. I was confused about how the drag-and-drop input was supposed to work. The sponsor wanted to have the ability to predefine input for the Loan App Editor. Then at a later date the user will be able to drag in the input to fill in the groups on the Loan App Editor. 
+
+## Week 14
+
+### April 14, 2020
+
+Met with Shane to discuss the next couple of weeks for the class. The class is getting real close to the end and we were told to not start any new features on our project. We talked to our sponsor and told them that this weekly meeting will be our last to show off the project. Nealon and I are tying up loose ends in the features currently implemented and Scott and Randy are making the poster for the class. 
+
+### April 15, 2020
+
+Implemented the search feature for the Credit Union List page. The search limits the table that is displayed to only show the credit unions that match the input searched. 
+
